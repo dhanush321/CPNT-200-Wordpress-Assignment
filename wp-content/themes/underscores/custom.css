@@ -1,0 +1,106 @@
+/* Custom Style Wordpress */ 
+@import url('https://fonts.googleapis.com/css?family=Exo&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Arvo&display=swap');
+
+.site-header {
+    width: 100vw;
+    margin: 0 auto;
+}
+.site-description {
+    display: none;
+}
+.site-title{
+    font-size: 5rem;
+    margin: 10px;
+    font-family: 'Arvo', serif;
+    text-decoration: none;
+    text-align: center;
+    background-color: black;
+    margin:0;
+}
+a.title{
+    list-style-type: none;
+    text-decoration: none;
+    font-size: 2rem;
+    font-family: 'Exo', sans-serif;
+    color: green;
+}
+nav {
+    width:100vw;
+    height: 100%;
+    background-color: black;
+    text-align: center;
+    justify-content:center;
+}
+nav ul{
+    display:flex;
+    justify-content:center;
+    flex-wrap:wrap;
+    margin:0;
+    text-align: center;
+}
+nav ul li{
+    list-style:none;
+    font-variant: small-caps;
+    font-weight: bold;
+    font-size: 18px;
+    text-align: center;
+    margin-left: 20%;
+}
+nav li a {
+    text-decoration:none;
+    font-family: 'Exo', sans-serif;
+    color: white;
+    margin: 10px;
+    text-align: center;
+    justify-content:center;
+
+}
+nav a:hover{
+    color:orange;
+}
+h1.entry-title{
+    display:none;
+}
+nav li.current_page_item{
+    background-color: green;
+    border-radius: 10px;
+
+}
+.site-content{
+    margin: auto;
+}
+label {
+    font-family: 'Ropa Sans', sans-serif;
+    color: rgb(104, 46, 46);
+    font-size: 25px;
+
+	width: 70%; 
+    margin:auto auto auto 50px;
+}
+input { 
+	width: 70%; 
+    margin:auto auto auto 50px;
+	border: 1px solid black;
+    padding: 8px;
+    border-radius: 4px; 
+    
+}
+textarea{
+	width: 70%; 
+    margin:auto auto auto 50px;
+	border: 1px solid black;
+    padding: 8px;
+    border-radius: 4px;
+}
+.wpcf7-submit {
+    justify-content: center;
+    width: 300px;
+}
+.site-footer{
+    background-color: black;
+    margin-bottom: 0;
+}
+.entry-footer{
+    display:none;
+}

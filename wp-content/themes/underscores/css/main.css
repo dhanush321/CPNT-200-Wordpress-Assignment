@@ -1,0 +1,8 @@
+.main-navigation ul li a{
+    text-decoration: none;
+    
+}
+.menu {
+    display: flex;
+    flex-direction: column;
+}
